@@ -36,3 +36,11 @@ fruits.insert(1, 'mango')
 print(fruits) # ['chips', 'mango', 'banana', 'orange', 'grapes']
 fruits.remove('banana')
 print(fruits) # ['chips', 'mango', 'orange', 'grapes']
+
+# joint two list 
+food = ['pizza', 'burger', 'noodles']
+print(fruits + food) # ['chips', 'mango', 'orange', 'grapes', 'pizza', 'burger', 'noodles']
+
+items = food + fruits
+print(items) # ['pizza', 'burger', 'noodles', 'chips', 'mango', 'orange', 'grapes']
+print(len(items)) # 7
