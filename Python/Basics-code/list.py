@@ -23,3 +23,8 @@ print(fruits[0]) # apple
 print(fruits[1]) # banana
 print(fruits[2]) # orange
 print(fruits) # ['apple', 'banana', 'orange']
+
+fruits[0] = 'chips'
+print(fruits)
+print(fruits[:2]) # ['chips', 'banana']
+print(fruits[1:]) # ['banana', 'orange']
