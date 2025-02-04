@@ -28,3 +28,11 @@ fruits[0] = 'chips'
 print(fruits)
 print(fruits[:2]) # ['chips', 'banana']
 print(fruits[1:]) # ['banana', 'orange']
+print(fruits[-1]) # orange
+
+fruits.append('grapes')
+print(fruits) # ['chips', 'banana', 'orange', 'grapes']
+fruits.insert(1, 'mango')
+print(fruits) # ['chips', 'mango', 'banana', 'orange', 'grapes']
+fruits.remove('banana')
+print(fruits) # ['chips', 'mango', 'orange', 'grapes']
