@@ -11,3 +11,8 @@ print(message.upper())
 
 print(message.replace('World', 'Universe!'))
 print(len(message))
+greeting = 'Hello'
+name = 'Michael'
+
+message = f'{greeting}, {name.upper()}. Welcome!'
+print(message)
