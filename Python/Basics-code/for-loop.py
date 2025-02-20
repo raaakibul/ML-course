@@ -1,3 +1,4 @@
+# for loop
 exp = [3402,2520,2100,2980]
 total = 0
 
@@ -24,4 +25,9 @@ for i in range(1,6):
     if i%2==0:
         continue
     print(i*i)
-    
+
+# while loop
+i = 1
+while i<=5:
+    print(i)
+    i = i+1
