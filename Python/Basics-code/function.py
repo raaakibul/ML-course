@@ -30,7 +30,7 @@ print("Tom's Total Expenses: ", toms_total)
 print("Joe's Total Expenses: ", joes_total)
 
 
-def sum(a,b):
+def sum(a, b):
     total = a + b
     # print("Sum :", total) #inside function 
     return total
