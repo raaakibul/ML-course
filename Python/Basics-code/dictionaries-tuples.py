@@ -16,3 +16,10 @@ for k, v in d.items():
 print("Tom" in d)
 d.clear()
 print(d)
+
+
+# Tuples
+point = (5,9)
+print(point[0])
+print(point[1])
+
