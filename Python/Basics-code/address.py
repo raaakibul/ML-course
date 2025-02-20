@@ -15,3 +15,16 @@ import json
 s =  json.dumps(book)
 with open('book.txt', "w") as f:
     f.write(s)
+    
+f = open('book.txt', "r")
+s = f.read()
+print(s)
+f.close()
+import json
+book = json.loads(s)
+print(book)
+print(type(book))
+print(book['bob'])
+
+for person in book:
+    print(book[person])
