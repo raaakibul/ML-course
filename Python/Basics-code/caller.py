@@ -1,3 +1,4 @@
 import main
 print("I am in caller.py")
-main.calculate_area(5,10)
+result = main.calculate_area(5,10)
+print(result)
