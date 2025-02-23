@@ -14,3 +14,7 @@ class Human:
 tom = Human("Tom Cruise", "actor")
 tom.do_work()
 tom.speak()
+
+maria = Human("Maria sharapova", "tennis player")
+maria.do_work()
+maria.speak()
