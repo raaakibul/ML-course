@@ -1,4 +1,6 @@
 from sklearn.tree import DecisionTreeRegressor
+import numpy as np
+import matplotlib.pyplot as plt
 
 # Generate regression data
 np.random.seed(0)
