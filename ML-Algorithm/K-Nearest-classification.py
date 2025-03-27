@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, classification_report
-from mlxtend.plotting import plot_decision_regions
+from mlxtend.plotting import plot_decision_regions # type: ignore
 
 # Generate synthetic data
 np.random.seed(0)
