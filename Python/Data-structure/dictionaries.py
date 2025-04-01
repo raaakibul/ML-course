@@ -10,3 +10,11 @@ print(my_dict)
 
 del my_dict["city"]
 print(my_dict)
+# dictioary comprehension
+squares_dict = {x: x**2 for x in range(1, 6)}
+print(squares_dict)  # Output: {1: 1, 2: 4, 3: 9, 4: 16, 5: 25}
+
+numbers = {'a': 10, 'b': 15, 'c': 20, 'd': 25}
+even_numbers = {k: v for k, v in numbers.items() if v % 2 == 0}
+
+print(even_numbers)  # Output: {'a': 10, 'c': 20}
