@@ -18,3 +18,11 @@ numbers = {'a': 10, 'b': 15, 'c': 20, 'd': 25}
 even_numbers = {k: v for k, v in numbers.items() if v % 2 == 0}
 
 print(even_numbers)  # Output: {'a': 10, 'c': 20}
+
+text = "hello hello world python world"
+word_count = {}
+
+for word in text.split():
+    word_count[word] = word_count.get(word, 0) + 1
+
+print(word_count)  # Output: {'hello': 2, 'world': 2, 'python': 1}
