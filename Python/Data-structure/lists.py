@@ -17,3 +17,7 @@ print(my_list)
 
 my_list.remove(200)  # Removes first occurrence of 200
 print(my_list)
+
+scores = [88, 75, 92, 65, 70]
+scores.sort(reverse=True)
+print(scores)  # Output: [92, 88, 75, 70, 65]
