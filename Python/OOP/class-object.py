@@ -9,4 +9,12 @@ class Car:
 
 # Creating an Object
 car1 = Car("Toyota", "Corolla", 2022)
-car1.display_info()
+car1.display_info() # Calling a method on the object
+car2 = Car("Honda", "Civic", 2021)
+car2.display_info() # Calling a method on the object
+# Creating a list of objects
+cars = [car1, car2]
+# Displaying information for each car in the list
+for car in cars:
+    car.display_info()  # Calling a method on each object in the list
+    
