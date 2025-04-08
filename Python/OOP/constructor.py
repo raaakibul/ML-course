@@ -33,4 +33,7 @@ dog2 = Dog("Max", "Black")
 dog1.update_color("White")
 dog1.view()
 dog2.view()
+
+print(dog1.__dict__)
+print(dir(dog1))
         
