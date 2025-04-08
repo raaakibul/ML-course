@@ -16,3 +16,21 @@ s2.details()
 # print(s2.id)
 # print(s1.name, s1.id)
 # print(s2.name, s2.id)
+
+class Dog:
+    def __init__(self, name, color):
+        self.name = name
+        self.color = color
+    
+    def update_color(self, new_color):
+        self.color = new_color
+    
+    def view(self):
+        print("Dog Name:", self.name, "Color:", self.color)
+
+dog1 = Dog("Buddy", "Brown")
+dog2 = Dog("Max", "Black")
+dog1.update_color("White")
+dog1.view()
+dog2.view()
+        
